@@ -1,5 +1,11 @@
-# get_prime_key.py
-
+# get_private_key.py
+"""
+given a RSA public key, get the private key.
+"""
+import json
+import sys
+import hashlib
+import math
 
 def get_factors(n):
     p = 0
