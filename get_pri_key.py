@@ -15,7 +15,6 @@ def get_factors(n):
     p = int( a + math.sqrt(b2) )
     q = int( a - math.sqrt(b2) )
     #print('n = {} : p = {}, q = {}'.format(n,p,q))
-
     return p, q
 
 
@@ -44,3 +43,6 @@ def get_key(p, q, e):
     d = x
 
     return d
+
+
+(to be continue.....................................)
