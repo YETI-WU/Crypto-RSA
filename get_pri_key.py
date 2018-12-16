@@ -74,6 +74,6 @@ if __name__ == "__main__":
     # Use p, q, e, to find the value d (Burte Force will take a long long time)
     d = get_key(p,q,e)
     
-    print('Your private eky: ' + hex(d).rstrip('L') )
+    print('Your private key: ' + hex(d).rstrip('L') )
     
 
